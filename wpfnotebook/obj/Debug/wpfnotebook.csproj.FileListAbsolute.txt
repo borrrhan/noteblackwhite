@@ -1,0 +1,14 @@
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\bin\Debug\wpfnotebook.exe.config
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook.csprojResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\MainWindow.g.cs
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\App.g.cs
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook_MarkupCompile.cache
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook_MarkupCompile.lref
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\bin\Debug\wpfnotebook.exe
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\bin\Debug\wpfnotebook.pdb
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\MainWindow.baml
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook.g.resources
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook.Properties.Resources.resources
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook.csproj.GenerateResource.Cache
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook.exe
+C:\Users\Leo\Desktop\Form\wpfnotebook\wpfnotebook\obj\Debug\wpfnotebook.pdb

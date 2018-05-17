@@ -1,0 +1,61 @@
+﻿<Window x:Class="wpfnotebook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfnotebook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid RenderTransformOrigin="0.514,0.281">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Background="Black"></StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Background="White" Orientation="Horizontal">
+            <TextBlock Width="300" Margin="15 0 0 0" TextAlignment="Left" FontSize="18" x:Name="fileNametxt" Foreground="DimGray">NewFile.txt</TextBlock>
+            
+        </StackPanel>
+
+        <Grid Grid.Row="1" Grid.Column="0" Background="Black">
+            <StackPanel Margin="10">
+                <!--function button-->
+                <Button Margin="10 40 0 10" x:Name="newBtn" Click="newBtn_Click" HorizontalContentAlignment="Left" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" FontSize="15">
+                    New
+                </Button>
+                <Button Margin="10,10,0,10" x:Name="openBtn" Click="openBtn_Click" HorizontalContentAlignment="Left" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" FontSize="15">
+                    Open
+                </Button>
+                <Button Margin="10,10,0,10" x:Name="SaveBtn" Click="saveBtn_Click" HorizontalContentAlignment="Left" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" FontSize="15">
+                    Save
+                </Button>
+                <Button Margin="10,10,0,10" x:Name="SaveAs" Click="saveAs_Click" HorizontalContentAlignment="Left" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" FontSize="15">
+                    Save As</Button>
+
+                <!--FontSize Change-->
+                <StackPanel Margin="0 40 0 0" Orientation="Horizontal">
+                    <Button Width="20" Margin="10 10 5 10" FontSize="10" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" x:Name="smallSize" Click="smallSize_Click">A</Button>
+                    <Button Width="20" Margin="10 10 5 10" FontSize="15" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" x:Name="normalSize" Click="normalSize_Click">A</Button>
+                    <Button Width="20" Margin="10 10 5 10" FontSize="20" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White" x:Name="largeSize" Click="largeSize_Click">A</Button>
+                </StackPanel>
+
+                <StackPanel  Margin="0 30 0 0" Orientation="Horizontal">
+                    <Ellipse Width="25" Height="25" Fill="DimGray" Stroke="LightGray" StrokeThickness="3" x:Name="colorToBlack" Margin="20 0 0 0" MouseLeftButtonDown="colorToBlack_MouseLeftButtonDown"></Ellipse>
+                    <Ellipse Width="25" Height="25" Fill="White" Stroke="LightGray" StrokeThickness="3" x:Name="colorToWhite" Margin="20 0 0 0" MouseLeftButtonDown="colorToWhite_MouseLeftButtonDown"></Ellipse>
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="1" Grid.Row="1">
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" BorderThickness="0" Padding="15" x:Name="textArea" Background="White" Foreground="DimGray" FontSize="15"></TextBox>
+        </ScrollViewer>
+    </Grid>
+</Window>
